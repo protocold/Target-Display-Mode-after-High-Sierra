@@ -10,11 +10,10 @@ This is made possible because of prior work done by:
 
 A) Reverse engineering by Florian Echtler (which I am not going to repeat here):
 
-[URL unfurl="true"]https://floe.butterbrot.org/matrix/hacking/tdm/[/URL]
+https://floe.butterbrot.org/matrix/hacking/tdm/
 
 B) SMC read/write utility under Hendrik Holtmann's smcFanControl project
-
-[URL unfurl="true"]https://github.com/hholtmann/smcFanControl/tree/master/smc-command[/URL]
+https://github.com/hholtmann/smcFanControl/tree/master/smc-command
 
 
 
@@ -22,7 +21,7 @@ In summary, these are my findings:
 
 1) under High Sierra(or older), TDM is handled by Display Port Daemon (dpd) which listen to Cmd F2 key pressing to trigger TDM. It is unclear what dpd completely does but at the minimum it writes 2 keys to SMC which triggers the TDM switching and launches dpaudiothru which handle the audio routing.
 
-[URL unfurl="true"]https://www.unix.com/man-page/osx/8/dpd/[/URL]
+https://www.unix.com/man-page/osx/8/dpd/
 
 
 
@@ -82,4 +81,4 @@ But this only handled the display, audio routing didn't work as dpaudiothru was 
 
 7) This only works for 2010 (and possibly 2009) as it supports display port only and finding from this post suggests TDM is handled by Thunderbolt on the 2011 so additional and separate stream of research required because 2011 will not respond to the 2 smc keys:
 
-[URL unfurl="true"]https://github.com/floe/smc_util/issues/8[/URL]
+https://github.com/floe/smc_util/issues/8
