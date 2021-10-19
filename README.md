@@ -13,6 +13,7 @@ A) Reverse engineering by Florian Echtler (which I am not going to repeat here):
 https://floe.butterbrot.org/matrix/hacking/tdm/
 
 B) SMC read/write utility under Hendrik Holtmann's smcFanControl project
+
 https://github.com/hholtmann/smcFanControl/tree/master/smc-command
 
 
